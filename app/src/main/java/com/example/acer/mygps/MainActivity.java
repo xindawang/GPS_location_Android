@@ -59,6 +59,7 @@ public class MainActivity extends Activity {
     private String allInfo;
 
 
+
     @Override
     protected void onDestroy() {
         // TODO Auto-generated method stub
