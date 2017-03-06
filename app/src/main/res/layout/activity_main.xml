@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/all"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:textSize="30sp"
+        android:editable="false"
+        android:id="@+id/info"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:digits="1234567890."
+        android:layout_below="@+id/info"
+        android:textSize="25sp"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:id="@+id/ip_address"/>
+
+    <Button
+        android:text="上传信息"
+        android:textSize="25sp"
+        android:id="@+id/modify"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ip_address"/>
+
+</RelativeLayout>
